@@ -4,18 +4,18 @@
 
 Customer Churn Analysis is a data analytics and machine learning project that analyzes customer behavior and identifies factors that contribute to customer churn.
 
-The project uses the IBM Telco Customer Churn dataset and applies Python-based data analysis, machine learning models, and Tableau visualization.
-
 ## Objectives
 
 - Analyze customer churn patterns
-- Identify important factors affecting churn
+- Identify factors affecting churn
 - Perform data cleaning and exploratory data analysis
 - Build machine learning models to predict churn
 - Compare Logistic Regression and Random Forest
-- Create an interactive Tableau dashboard
+- Create a Tableau dashboard
 
 ## Dataset
+
+IBM Telco Customer Churn Dataset
 
 - Records: 7,043 customers
 - Features: 21 attributes
@@ -34,19 +34,20 @@ The project uses the IBM Telco Customer Churn dataset and applies Python-based d
 
 ## Analysis Performed
 
-- Data cleaning and preprocessing
+- Data Cleaning
 - Exploratory Data Analysis
-- Churn analysis by contract
-- Internet service analysis
-- Payment method analysis
-- Tenure analysis
-- Monthly charges analysis
-- Tech support analysis
-- Online security analysis
-- Correlation analysis
-- Customer churn probability
-- Risk analysis
-- Feature importance
+- Churn Analysis
+- Contract Analysis
+- Internet Service Analysis
+- Payment Method Analysis
+- Tenure Analysis
+- Monthly Charges Analysis
+- Tech Support Analysis
+- Online Security Analysis
+- Correlation Analysis
+- Churn Probability Prediction
+- Risk Analysis
+- Feature Importance
 
 ## Machine Learning Models
 
@@ -82,22 +83,19 @@ The project uses the IBM Telco Customer Churn dataset and applies Python-based d
 
 ## Tableau Dashboard
 
-![Customer Churn Dashboard](images/dashboard.png)
+![Customer Churn Dashboard](dashboard.png)
 
 ## Project Structure
 
 ```text
 Customer-Churn-Analysis/
 ├── data/
-│   ├── raw/
-│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   └── processed/
-│       ├── cleaned_customer_churn.csv
-│       └── model_performance.csv
 ├── notebooks/
-│   └── 01_customer_churn_analysis.ipynb
 ├── dashboard/
-├── images/
-│   └── dashboard.png
+├── dashboard.png
 ├── README.md
+├── Customer_Churn_Analysis.twbx
+├── churn_summary.csv
+├── cleaned_customer_churn.csv
+├── model_performance.csv
 └── requirements.txt
